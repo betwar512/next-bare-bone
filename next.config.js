@@ -8,8 +8,8 @@ const withManifest = require('next-manifest');
 const withOffline = require('next-offline');
 //const withPurgeCss = require('next-purgecss')
 // Setup these before going anywehre 
-const SITE_NAME = "";
-const SITE_URL = "";
+const SITE_NAME = '';
+const  SITE_URL = '';
 
 
 

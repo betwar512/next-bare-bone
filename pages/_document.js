@@ -14,7 +14,7 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          <Manifest href={"/public/manifest.json"} themeColor={Config.THEM_COLOR} />
+          <Manifest href={"/manifest.json"} themeColor={Config.THEM_COLOR} />
         </Head>
   
         <body>

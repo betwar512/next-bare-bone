@@ -56,8 +56,8 @@ class Navbar extends Component {
         return (
             <MDBNavbar light color="white" expand="lg" fixed="top" className="font-weight-bolder">
                 <MDBNavbarBrand>
-                <a href="/">
-                    <img  src={require('../../public/favicon.ico')} className="pl-3" width="200" alt="My responsive image."/>
+                <a href="/"> Next Bare Bone
+                    {/* <img  src={require('../../public/favicon.ico')} className="pl-3" width="200" alt="My responsive image."/> */}
                 </a>
                 </MDBNavbarBrand>
                 <MDBNavbarToggler onClick={this.toggleCollapse} />

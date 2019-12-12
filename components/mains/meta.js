@@ -7,7 +7,6 @@ const Meta = (props) => (
 <meta name="description" content={props.desc} /> */}
 {/* <meta name="theme-color" content="#f00"/> */}
 <meta name="language" content="EN"/>
-<meta name="theme-color" content="#4285F4"/>
 {/* <meta property="og:type" content="website" />
 <meta name="og:title" property="og:title" content="" />
 <meta name="og:description" property="og:description" content="" />
@@ -21,7 +20,7 @@ const Meta = (props) => (
 <meta property="og:image" content="" />  
 <meta name="twitter:image" content="" />   
 <link rel="canonical" href="" /> */}
-<link rel="apple-touch-icon" href="/images/favicon.png"/>
+<link rel="apple-touch-icon" href="/favicon.ico"/>
 {/* <link rel="manifest" href="/manifest.json"/> */}
 <link rel='icon' href='/favicon.ico' />
 </Head>
