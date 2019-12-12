@@ -1,6 +1,7 @@
 const SITE_URL = ""
 const SITE_NAME = ""
 const ORG_NAME = ""
+const EMAIL_ADDR = ""
 
 export const  LocalBussinesData = {
         type:"LocalBusiness",
@@ -8,8 +9,8 @@ export const  LocalBussinesData = {
         name:SITE_NAME,
         description:"",
         url:SITE_URL,
-        telephone:"03 9764 1617",
-        email : "info@qcskinclinic.com.au",
+        telephone: "XXX XXX XXX",
+        email : EMAIL_ADDR,
         address : {
           "streetAddress" : "",
           "addressLocality" : "",
