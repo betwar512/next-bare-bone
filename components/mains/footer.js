@@ -84,7 +84,7 @@ class FooterPage extends Component {
                             {this.createMiddleColumn()}
                         </MDBCol>
                         <MDBCol md="3" sm="12" >
-                        <h5 className="font-weight-bold text-center">Stay Updated</h5>
+                        <h5 className="font-weight-bold">Stay Updated</h5>
                             <SubscribeForm/>
                         </MDBCol>
                     </MDBRow>
