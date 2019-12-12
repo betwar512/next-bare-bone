@@ -10,49 +10,71 @@ class FooterPage extends Component {
 
     createMiddleColumn() {
         return (
-            <>
-                <h5 className="font-weight-bold">Opening Hours</h5>
+            <div className="pb-5">
+                  <style jsx>{`
+                   td.nopad{
+                      padding-left :0px !important;
+                      padding-right:0px !important;
+                      font-size:0.9em;
+                  }
+                  `
+                } 
+                </style>
+                <h5 className="font-weight-bold pb-3 pl-2">Opening Hours</h5>
                 <MDBRow className="">
+                    <MDBCol size="12">
                     <MDBTable borderless className="white-text">
                         <MDBTableBody>
                             {Config.TIME_TABLE.map((item, key) => (
                                 <tr key={key}>
-                                    <td><strong> {item.day}</strong></td>
-                                    <td>{item.time}</td>
+                                    <td className="nopad"><strong> {item.day}</strong></td>
+                                    <td className="nopad">{item.time}</td>
                                 </tr>
                             ))}
                         </MDBTableBody>
                     </MDBTable>
+                    </MDBCol>
                 </MDBRow>
-            </>
+            </div>
         )
     }
 
 
     createMiddleSocilaMedial() {
         return (
-            <MDBContainer>
-                <h5 className="font-weight-bold">Follow Us </h5>
-                <a href={Config.FACEBOOK_LINK} className="fb-ic mr-3">
-                    <MDBIcon fab icon="facebook-f" />
+            <MDBContainer className="pb-5">
+                <h5 className="font-weight-bold pb-5">Follow Us </h5>
+                <ul className="list-unstyled">
+               <li className="pl-5 pr-5 pb-5">
+                <a href={Config.FACEBOOK_LINK} className="mr-3">
+                    <MDBIcon fab icon="facebook-f fa-3x"/>
                 </a>
-                <a href="#!" className="ins-ic mr-3">
-                    <MDBIcon fab icon="instagram" />
+                </li>
+                <li className="pl-5 pr-5"> 
+                <a href="#!" className="mr-3">
+                    <MDBIcon fab icon="instagram fa-3x" />
                 </a>
-                <a href="#!" className="email-ic mr-3">
-                    <MDBIcon icon="envelope" />
+                </li>
+                <li className="pl-5 pr-5 pt-5">
+                <a href="#!" className="mr-3">
+                    <MDBIcon icon="envelope fa-3x" />
                 </a>
+                </li>
+                </ul>
             </MDBContainer>
         )
     }
 
     render() {
         return (
+
             <MDBFooter color="stylish-color-dark" className="font-small pt-5">
+        
+    
                 <MDBContainer fluid>
                     <MDBRow className="p-md-3">
-                        <MDBCol md="3" sm="12" className="text-md-left">
-                        <h5 className="font-weight-bold">Contact Us </h5>
+                        <MDBCol md="3" sm="12" className="text-md-left pb-3">
+                        <h5 className="font-weight-bold pb-4">Contact Us </h5>
                            <ContactCard/>
                         </MDBCol>
                         <MDBCol md="3" sm="12" className="text-md-center">
@@ -62,7 +84,7 @@ class FooterPage extends Component {
                             {this.createMiddleColumn()}
                         </MDBCol>
                         <MDBCol md="3" sm="12" >
-                        <h5 className="font-weight-bold">Stay Updated</h5>
+                        <h5 className="font-weight-bold text-center">Stay Updated</h5>
                             <SubscribeForm/>
                         </MDBCol>
                     </MDBRow>
