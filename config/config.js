@@ -7,6 +7,8 @@ export class Config {
 
     static FACEBOOK_LINK  = 'https://www.facebook.com/'  ;
 
+    static COMPANY_NAME = '';
+
 
     static MENU_LIST = [
         { href: '/', label: 'HOME' },

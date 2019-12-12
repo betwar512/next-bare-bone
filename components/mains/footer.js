@@ -69,7 +69,7 @@ class FooterPage extends Component {
                 </MDBContainer>
                 <div className="footer-copyright text-center py-3">
                     <MDBContainer>
-                        &copy; {new Date().getFullYear()} Copyright: <a href="/"> Qc Skin Clinic  </a>
+                        &copy; {new Date().getFullYear()} Copyright: <a href="/"> {Config.COMPANY_NAME} </a>
                     </MDBContainer>
                 </div>
             </MDBFooter>
