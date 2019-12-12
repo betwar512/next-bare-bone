@@ -1,6 +1,7 @@
 // ./pages/_document.js
 import Document, { Html, Head, Main, NextScript } from 'next/document'
-// import Manifest from 'next-manifest/manifest'
+import Manifest from 'next-manifest/manifest'
+import { Config } from '../config/Config'
 
 
 class MyDocument extends Document {
@@ -13,7 +14,9 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
+          <Manifest href={"/public/manifest.json"} themeColor={Config.THEM_COLOR} />
         </Head>
+  
         <body>
           <Main />
           <NextScript />

@@ -22,7 +22,7 @@ const Meta = (props) => (
 <meta name="twitter:image" content="" />   
 <link rel="canonical" href="" /> */}
 <link rel="apple-touch-icon" href="/images/favicon.png"/>
-<link rel="manifest" href="/manifest.json"/>
+{/* <link rel="manifest" href="/manifest.json"/> */}
 <link rel='icon' href='/favicon.ico' />
 </Head>
 )

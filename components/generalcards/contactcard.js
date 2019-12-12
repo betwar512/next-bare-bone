@@ -1,7 +1,7 @@
 import React, { Component } from "react"
-import { MDBIcon , MDBModal , MDBCloseIcon, MDBCard, MDBCardTitle, MDBCardBody, MDBRow, MDBCol} from "mdbreact";
-import { Config } from "../config/Config";
-import ContactForm from '../components/forms/contactform'
+import { MDBIcon , MDBModal , MDBCloseIcon, MDBCard, MDBCardTitle, MDBCardBody} from "mdbreact";
+import { Config } from "../../config/Config";
+
 
 class ContactCard extends Component{
 
@@ -16,7 +16,6 @@ class ContactCard extends Component{
       }
 
   render(){
-
     let addModal = this.props.addModal ? (<MDBModal isOpen={this.state.modal} size="lg" toggle={this.toggle} centered>
     <MDBCloseIcon onClick={this.toggle}  className="pull-right"/>
            <MDBCard className="p-4">

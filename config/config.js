@@ -9,6 +9,8 @@ export class Config {
 
     static COMPANY_NAME = '';
 
+    static THEM_COLOR = "#F0F0F0";
+
 
     static MENU_LIST = [
         { href: '/', label: 'HOME' },
