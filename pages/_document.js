@@ -1,7 +1,7 @@
 // ./pages/_document.js
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 import Manifest from 'next-manifest/manifest'
-import { Config } from '../config/Config'
+import { Config } from "../../config/config";
 
 
 class MyDocument extends Document {
