@@ -3,7 +3,7 @@ import {
     MDBNavbar, MDBNavbarBrand, MDBNav, MDBNavbarNav, MDBNavItem, MDBNavbarToggler, MDBCollapse,
     MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem
 } from "mdbreact";
-import { Config } from "../../config/Config";
+import { Config } from "../../config/config";
 
 class Navbar extends Component {
     state = {

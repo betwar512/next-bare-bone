@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { MDBTable, MDBCol, MDBContainer, MDBRow, MDBFooter, MDBIcon, MDBTableBody } from "mdbreact";
 import SubscribeForm from "../forms/subscribeform";
 import ContactCard from "../generalcards/contactcard";
-import { Config } from "../../config/Config";
+import { Config } from "../../config/config";
 
 class FooterPage extends Component {
 
