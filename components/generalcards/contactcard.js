@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import { MDBIcon , MDBModal , MDBCloseIcon, MDBCard, MDBCardTitle, MDBCardBody} from "mdbreact";
-import { Config } from "../../config/Config";
+import { Config } from "../../config/config";
 
 
 class ContactCard extends Component{

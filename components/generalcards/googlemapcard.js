@@ -1,6 +1,6 @@
 import React,{ Component } from "react";
 import GoogleMapReact from 'google-map-react';
-import { Config } from "../../config/Config";
+import { Config } from "../../config/config";
 
 
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
